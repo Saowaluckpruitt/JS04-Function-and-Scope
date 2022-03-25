@@ -7,8 +7,8 @@ function sendTo(from, to) {
   console.log(`From ${from} to ${to}`);
 }
 
-sendTo(sender, "Sarah"); // *
-sendTo(null); // **
+sendTo(sender, "Sarah"); // * From Matt to Sarah;
+sendTo(null); // ** From null to undefined
 ```
 
 ```js
